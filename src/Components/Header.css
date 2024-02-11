@@ -1,0 +1,57 @@
+/* -----------------------header---------------- */
+#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 300px;
+    z-index: 9997;
+    padding: 0 15px;
+    background: var(--gray);
+    overflow-y: auto;
+}
+
+#header .flex-column {
+    flex-direction: column;
+    gap: 50px;
+}
+
+#header .profile img {
+    margin: 50px auto;
+    display: block;
+    width: 180px;
+    border: 8px solid var(--red);
+    border-radius: 50%;
+
+}
+
+#header .profile h1 {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 600;
+}
+/* --------------------navbar-menue----------- */
+.navbar ul {
+    padding-left: 30px;
+    list-style: none;
+    text-decoration: none;
+}
+
+.navbar a {
+    display: flex;
+}
+
+.navbar a span {
+    padding-left: .5rem;
+    margin-bottom: 2rem;
+}
+
+.navbar a:hover,
+.navbar .active {
+    color: #000;
+}
+
+.navbar a:hover .color,
+.navbar .active .color {
+    color: var(--red);
+}

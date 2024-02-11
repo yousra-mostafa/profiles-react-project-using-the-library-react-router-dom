@@ -1,0 +1,47 @@
+/* -------------general--------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Raleway", sans-serif;
+}
+
+.d-flex {
+    display: flex;
+}
+
+:root {
+    --red: #ee1228;
+    --gray: #eff2f9;
+    /* --section: rgb(99, 110, 114, 0.1); */
+    --black: #4D4541;
+    --white: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: var(--black);
+
+}
+h3{
+    font-weight: 700;
+    font-size: 23px;
+    padding: 25px 0 0 0;
+}
+hr{
+    margin: 60px 0 0 0;
+}
