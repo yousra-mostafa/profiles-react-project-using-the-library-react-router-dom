@@ -6,7 +6,7 @@
     display: grid;
     grid-template-columns: 50% 50%;
 }
-#Health-Status .row p{
+#Health-Status p{
     font-size: 24px;
     padding: 20px 0;
 }

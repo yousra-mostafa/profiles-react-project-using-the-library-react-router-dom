@@ -7,10 +7,10 @@
     grid-template-columns: auto auto;
 }
 
-#About .content ul {
+#About ul {
     list-style: none;
 }
 
-#About .content ul li {
+#About ul li {
     padding: 20px 0;
 }

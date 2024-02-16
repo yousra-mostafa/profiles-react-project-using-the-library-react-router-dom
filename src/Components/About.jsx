@@ -2,6 +2,7 @@ import "./General.css";
 import "./GeneralSection.css";
 import "./About.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Grid } from "@mui/material";
 
 function About() {
   return (
@@ -11,8 +12,8 @@ function About() {
         <div className="section-title">
           <h2>About</h2>
         </div>
-        <div className="row content">
-          <div className="col">
+        <Grid container spacing={2}>
+          <Grid item xs={6}>
             <ul>
               <li>
                 <FontAwesomeIcon icon="fa-solid fa-circle-chevron-right" />{" "}
@@ -39,8 +40,8 @@ function About() {
                 <span> A+</span>
               </li>
             </ul>
-          </div>
-          <div className="col">
+          </Grid>
+          <Grid item xs={6}>
             <ul>
               <li>
                 <FontAwesomeIcon icon="fa-solid fa-circle-chevron-right" />{" "}
@@ -62,8 +63,8 @@ function About() {
                 <span>Available</span>
               </li>
             </ul>
-          </div>
-        </div>
+          </Grid>
+        </Grid>
       </div>
     </section>
   );

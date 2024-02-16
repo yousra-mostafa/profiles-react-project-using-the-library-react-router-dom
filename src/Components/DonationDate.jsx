@@ -8,7 +8,7 @@ function DonationDate() {
     
     <section id="donation-date">
         <div className="container">
-        <hr />
+        
             <div className="section-title">
                 <h2>Donation Date</h2>
             </div>
