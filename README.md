@@ -1,4 +1,4 @@
-yousra =>1- to use react router dom install it  npm i react-router-dom it's verien 6 search for npm website then search for react router dom
+yousra =>1- to use react router dom(Routes) install it  npm i react-router-dom it's verien 6 search for npm website then search for react router dom
 
 2-go to main.jsx and use BrowserRouter
 
